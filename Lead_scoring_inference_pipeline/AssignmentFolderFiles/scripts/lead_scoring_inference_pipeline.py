@@ -36,7 +36,7 @@ features_to_encode=constants.FEATURES_TO_ENCODE
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2022,7,30),
+    'start_date': datetime(2024,4,14),
     'retries' : 1, 
     'retry_delay' : timedelta(seconds=5)
 }
